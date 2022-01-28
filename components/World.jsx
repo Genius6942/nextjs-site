@@ -117,10 +117,10 @@ export default class World extends React.Component {
         );
         const mesh = new THREE.Mesh(
           geometry,
-          new THREE.MeshStandardMaterial({ color: 0xdddddd }),
+          new THREE.MeshStandardMaterial({ color: 0x696969 }),
         );
         mesh.rotation.y = -Math.PI / 2;
-        mesh.position.set(-5, 0, -5)
+        mesh.position.set(30, 0, -30)
         this.scene.add(mesh);
       },
       // onProgress callback
