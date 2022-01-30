@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import World from '/components/world';
+import World from '/components/World';
 
 export default function Home() {
   return (
